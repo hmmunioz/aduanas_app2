@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040740955841",
+    "firebase_url": "https://rcb-trace-logistics.firebaseio.com",
+    "project_id": "rcb-trace-logistics",
+    "storage_bucket": "rcb-trace-logistics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040740955841:android:68c54daeb1553909948640",
+        "android_client_info": {
+          "package_name": "com.rcb.aduanas_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040740955841-bk0jpt2vk7jrag9i66if5h0mko4dihje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAteRIeFKuCFXq5F2BQEUtiQROT8IqgAnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040740955841-bk0jpt2vk7jrag9i66if5h0mko4dihje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
