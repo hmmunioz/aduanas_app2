@@ -63,16 +63,12 @@ class NotificationProvider{
          
        } */
 
-     
  }
-void showNotification(BuildContext context,  int type, TramiteModel tramiteModel )async {
+void showNotification(BuildContext context,  int type, TramiteModel tramiteModel) async {
 
-  if(tramiteModel.getEstado!=3){
-      print("esssssssssssssssssste estel tra");
-       
-       print(tramiteModel.getFechaExpiracion);
+  if(tramiteModel.getEstado!=3)
+  {
     var tiempoEnvio =DateTime.parse(tramiteModel.getFechaExpiracion).add(Duration(hours: -1));
-
     Duration difference = DateTime.now().difference(tiempoEnvio);   
     
     var mensaje;

@@ -128,41 +128,11 @@ Navigator.pop(context);
         ]
       ),
     );
+                  
           
           
           
-          
-          
-   /*        Container(
-            color: Colors.transparent,
-            child:  Container(
-                decoration:  BoxDecoration(
-                    color: Colors.white,                          
-                    borderRadius:  BorderRadius.only(
-                        topLeft: const Radius.circular(25.0),
-                        topRight: const Radius.circular(25.0))),
-                child: Wrap(
-                  children: <Widget>[
-                    ListTile(
-                        leading: Icon(Icons.info_outline, color: Theme.of(context).primaryColor,),
-                        title: Text('Mas informacion'),
-                        onTap: () => {showTramiteDetail(objTramite, context)}),
-                      objTramite.getEstado!=3?
-                    ListTile(
-                      leading: Icon(Icons.check_circle_outline,  color: Theme.of(context).primaryColor,),
-                      title: Text('Realizar Tramite'),
-                      onTap:  ()  async{ openDialog(context, mensaje, '¿Esta seguro de realizar este trámite?',  ()=>{changeTramite()/* changeTramiteById(context, objTramite) */}, true, true); } ,  
-                    ):
-                    SizedBox(height: 0.0,),
-                    ListTile(
-                      leading: Icon(Icons.cancel,  color: Theme.of(context).primaryColor,),
-                      title: Text('Salir'),
-                      onTap:  ()=>{Navigator.pop(context)}
-                    ),
-                  ],
-                )),
-          );
-    */     }); 
+     }); 
      }
   
   

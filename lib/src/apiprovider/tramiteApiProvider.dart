@@ -63,9 +63,9 @@ class TramiteApiProvider {
     } 
    }  
  
-  sendNotification(BuildContext context, dynamic tr, List<TramiteModel>  notificationList ){
+  sendNotification(BuildContext context, dynamic tr, List<TramiteModel>  typeTramiteList ){
     notificationProvider.showNotification(context, 0, new TramiteModel.fromJson(tr)); 
-     notificationList.add(new TramiteModel.fromJson(tr));
+     typeTramiteList.add(new TramiteModel.fromJson(tr));
   }
 
 

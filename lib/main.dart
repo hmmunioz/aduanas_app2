@@ -18,8 +18,7 @@ import 'dart:io';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 Repository repository = new Repository();
   
- void main() {   
-  
+ void main() {     
   runApp(Provider<Bloc>(
       create: (context) => Bloc(),
       dispose: (context, bloc) => bloc.dispose(),
